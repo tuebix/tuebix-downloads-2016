@@ -1,0 +1,130 @@
+= Event =
+
+generelle info ueber den event:
+
+TUEBIX 2016
+
+2016-06-11 Sat "TueBix 2016" 9-17h  www.tuebix.org
+ORT: das Wilhelm-Schickard-Institut für Informatik
+http://www.wsi.uni-tuebingen.de/ -> "Auf dem Sand"
+http://www.osm.org/way/8044916 OpenStreetMap Karte
+
+programm: http://www.tuebix.org/2016/programm/
+
+chat:     https://webchat.freenode.net/?channels=%23tuebix
+kontakt:  mailto:info@tuebix.org
+
+maillist: http://mailman.guckes.net/mailman/listinfo/tuebix-guckes.net
+facebook: https://www.facebook.com/events/1723998997873581/
+googlepl: https://plus.google.com/communities/112779218204422284386
+textpads: https://tuebix2016.titanpad.com/workshop-mutt
+          https://tuebix2016.titanpad.com/auftakt
+twitter:  https://twitter.com/tuebix
+
+vom Hauptbahnhof zum "Auf dem Sand":
+vom Hauptbahnhof mit der BusLinie 2
+Richtung "Sand Waldhäuser-Ost" (Sand-WHO)
+bis zur Haltestelle "Sand Drosselweg"
+
+beispiel:
+08:53 Hauptbahnhof Bahnsteig E  Buslinie 2
+09:04 Sand Drosselweg
+Fahrzeit: 11min
+
+nach Süden die Strasse "Drosselweg" rauflaufen
+
+Abfahrtsplan vom Hauptbahnhof:
+http://www.swtue.de/abfahrt/?halt=100005
+
+= Workshop =
+
+mein kleiner workshop:
+
+Workshop: "Mutt konfigurieren"  Sa 11.Juni 2016, 10-12h in Raum V3
+http://www.tuebix.org/2016/programm/sven-guckes-mutt-konfigurieren/
+
+Sven Guckes  tuebix2016@guckes.net  pubkeys: 57F77F09 0185391B
+pad: https://tuebix2016.titanpad.com/workshop-mutt
+
+= diese Datei =
+
+http://www.guckes.net/tuebix2016/workshop.mutt_config.txt
+http://www.guckes.net/tuebix2016/workshop.mutt_config.html ("bunt")
+Latest change: Thu Jun 09 06:42:23 CEST 2016
+
+= Abstract =
+
+Mutt Config: "den mutt mailer einstellen"
+
+Wir werden die Konfigurationsdatei (~/.muttrc) editieren,
+und eventuell in mehrere Dateien aufteilen
+(mit dem Kommando "source" verbinden.)
+Zunächst die schnellen Änderungen,
+dann die längeren Themen angehen.
+
+= Voraussetzungen =
+
+* laptop - installiert mit mutt + $EDITOR (emacs,vim)
+* mutt-1.5.23 (debian), neueste version: mutt-1.6.1 [2016-04-30]
+* mutt schonmal verwendet, besser: in Verwendung.
+* editor - sicherer umgang damit: Dateien öffnen,
+  schnelles Suchen, ändern der Inhalte, speichern.
+* plus: gewohnter Umgang mit der Shell.
+* plus: gewohnter Umgang mit "screen" oder "tmux".
+
+= Inhalt =
+
+== Schnelle Änderungen ==
+
+* autoedit + edit_headers
+* reverse_alias + reverse_name
+* index_format + to_chars
+* header      (Auswahl, Reihenfolge, Farben)
+* attachments (Auswahl, mailcap processing)
+* Farben für den Header und den Index
+* signatures (vim: register; ":r ~/.sig.foo")
+
+== Längere Themen ==
+
+* mailinglisten: folder_hook, mailboxes, subscribe, save_hook
+* farben: für den message body
+* display_filter: Änderungen und Löschungen mit "sed"
+* macros: limits, header weeding, change personality
+* pgp_commands: Signieren, Verschlüsseln
+* retrieval: Mails holen per fetchmail und sortieren mit procmail
+* imap: TODO
+* s/mime: TODO
+
+= Vorbereitung =
+
+Eventuell wird es keinen Zugang zum Internet geben.
+Wir müssen also vorbereitet sein.
+
+Ich bitte alle Teilnehmer darum einen Laptop mitzunehmen und
+auf diesem schon vorher ein Paket von mutt zu installieren.
+
+Das Versenden von Email muss dann eventuell
+über das eigene Handy per Tethering geschehen:
+https://de.wikipedia.org/wiki/Tethering
+
+Ich werde diese Datei lokal zur Verfügung stellen.
+Aber natürlich ist es besser, sie schon vorher runterzuladen.
+
+Falls es Fragen gibt, so bitte ich Euch
+diese mir schon vorab per Email zu schicken.
+
+Während des Workshop verwenden wir dieses Pad:
+https://tuebix2016.titanpad.com/workshop-mutt
+
+Falls es keinen Zugang zum Internet gibt, dann werde
+ich auf meiner Kiste zeigen, was mit mutt moeglich ist.
+Das Senden und Empfangen von Emails wird dann nicht gehen.
+Fuer den Fall hoffe ich, dass ihr eure eigenen Daten
+auf der Kiste habt und darauf operieren könnt.
+
+= Presse =
+
+* http://www.pro-linux.de/news/1/23572/programm-des-t%C3%BCbix-steht.html
+* http://www.linux-magazin.de/NEWS/Tuebix-Programm-fuer-Linuxtag-in-Tuebingen-steht2/(language)/ger-DE
+
+vim: set et fenc=latin1 ft=sven tw=999 nowrap: THPXRF EOF
